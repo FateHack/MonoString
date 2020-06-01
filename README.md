@@ -13,7 +13,7 @@ MonoString *$get_applicationBundleIdentifier() {
     std::string ss = str->toString(); //转std::string
     str->setMonoString("monoString"); 
     str->setMonoString(string("monoString"));
-    return get_applicationBundleIdentifier();
+    return str;
 }
 ```
 
